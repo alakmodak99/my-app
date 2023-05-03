@@ -7,9 +7,10 @@ import PriceDetails from "./Pages/RedirectPage";
 function App() {
   return (
     <div className="App">
+      {/* Routes for the pages */}
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Home />}></Route>
+          <Route path="/" element={<Home />}></Route> 
           <Route path="/price-details/:id" element={<PriceDetails />}></Route>
           <Route path="*" element={<>No Page Found </>} />
         </Routes>

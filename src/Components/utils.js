@@ -1,5 +1,5 @@
 import axios from "axios";
-const APPBASEURL = "http://localhost:3000/";
+const APPBASEURL = "https://tables-server-data.onrender.com/";
 export const getAPIData = (obj) => {
     let s =''
     if(obj?.data){
